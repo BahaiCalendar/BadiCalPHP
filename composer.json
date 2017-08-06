@@ -1,0 +1,24 @@
+{
+    "name": "bahaicalendar/badical",
+    "description": "Library to convert between Gregorian and Badi calendars.",
+    "keywords": ["calendar", "conversion", "badi", "bahai", "date"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Crawford",
+            "email": "dmcblue@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BahaiCalendar\\BadiCal\\": "src"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "tests.php",
+            ".gitignore"
+        ]
+    }
+}
