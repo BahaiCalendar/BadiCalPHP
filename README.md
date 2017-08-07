@@ -18,7 +18,9 @@ The library uses precalculated NawRuz dates from http://wilmetteinstitute.org/wp
 
 ## Loading
 
-**TBA** once I push to Packagist.
+```
+composer require bahaicalendar/badical
+```
 
 If not using Composer, you can autoload all classes by requiring the *load.php* file at the root of this repo.
 
