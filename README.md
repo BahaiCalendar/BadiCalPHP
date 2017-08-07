@@ -26,7 +26,8 @@ If not using Composer, you can autoload all classes by requiring the *load.php* 
 
 ## Usage
 
-The usage is currently extremely simple.  There are two static conversion functions which return \BahaiCalendar\BadiCal\Date objects.### Gregorian to Badi
+The usage is currently extremely simple.  There are two static conversion functions which return \BahaiCalendar\BadiCal\Date objects.
+### Gregorian to Badi
 \BahaiCalendar\BadiCal\Convert::GregorianToBadi
 + @param year  - the Gregorian year
 + @param month - the Gregorian month
@@ -103,22 +104,18 @@ The *\BahaiCalendar\BadiCal\Date* class has the following:
 
 ### Methods
 **year($formatted)**
-@param bool formatted - will pad the output with a zero
-@return the year
-
-**year($formatted)**
-@param bool formatted - will pad the output with a zero
+@param bool formatted - [OPTIONAL, default=false] will pad the output with a zero
 @return the year
 
 **month($formatted)**
-@param bool formatted - will pad the output with a zero
+@param bool formatted - [OPTIONAL, default=false] will pad the output with a zero
 @return the month
 
 **monthName()**
 @return the name of the month according to the appropriate calendar
 
 **day($formatted)**
-@param bool formatted - will pad the output with a zero
+@param bool formatted - [OPTIONAL, default=false] will pad the output with a zero
 @return the day
 
 ### Properties
